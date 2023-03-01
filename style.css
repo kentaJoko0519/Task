@@ -71,3 +71,22 @@ footer{
   height: 50px;
   background-color: #AAA;
 }
+
+@media screen and (max-width:768px){
+
+  main{
+    width: 100%;
+    }
+
+  .item-box{
+    display: block;
+    width: 90%;
+    }
+
+  .box{
+    margin-right: 0px;
+    width: 100%;
+    margin-bottom: 20px;
+    }
+
+}
